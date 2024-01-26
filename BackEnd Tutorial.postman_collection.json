@@ -1,0 +1,216 @@
+{
+	"info": {
+		"_postman_id": "ed08b5e3-d9f7-44ce-bbe7-2220515d0009",
+		"name": "BackEnd Tutorial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1219591"
+	},
+	"item": [
+		{
+			"name": "sampleResponse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/sampleResponse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"sampleResponse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "samplePost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\" : \"Prathap\",\r\n    \"lastname\" : \"Lakku\",\r\n    \"town\": \"Kavali\",\r\n    \"state\": \"Andhra Pradesh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/samplePost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"samplePost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "authenticateUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Babu\",\r\n    \"password\": \"Srujana\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/authenticateUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"authenticateUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fetchUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/fetchUsers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"fetchUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "authenticateUserDB",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Babu\",\r\n    \"password\": \"Srujana\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/authenticateUserDB",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"authenticateUserDB"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Apoorv\",\r\n    \"password\": \"Random Girl\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/createUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"createUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUser",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Apoorv\",\r\n    \"password\": \"Unknown Girl\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/UpdateUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"UpdateUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteUser",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Apoorv\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/deleteUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"deleteUser"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
